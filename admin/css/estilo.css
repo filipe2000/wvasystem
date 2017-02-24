@@ -1,0 +1,102 @@
+body
+{
+background: url("../imagens/bg-body.jpg");
+}
+.divcenter/* tudo, centralizar */
+{
+	width: 820px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 5px;
+	
+}
+
+.boxposts li/* ul li itens*/
+{
+width: 800px;
+height: auto;
+background: #eee;
+border-radius: 10px;
+border-width: 2px;
+box-shadow: 1px 1px 10px #999;
+overflow: hidden;
+margin-bottom: 8px;
+}
+.image/*imagem */
+{
+	width: 130px;
+	height: 173,5px;	
+	float: left;
+	padding: 5px;
+}
+.image img 
+{
+	width:130px;  
+	height:130px;      
+}
+a img:hover 
+{
+	  
+	max-height:400px; 	
+	max-width:400px; 
+	width: auto;
+	height: auto;  
+}
+.contMin
+{	
+	padding: 5px;
+	float: right;
+	width: 600px;
+} 
+.content
+{
+	padding: 5px;
+	float: right;
+	width: 650px;
+}
+#idp
+{
+	font-family: 'Consolas';
+	font-size: 12px;
+	color: #777;
+	line-height: 20px;
+}
+#idh1
+{
+	margin-top: 5px;
+	font-size: 20px;
+	font-family: 'Algerian';
+	color: #666;
+	text-transform: uppercase;
+}
+#footer_post
+{
+	width: 100%;
+	height: auto;	
+	overflow: hidden;
+	border-top: 2px double #ddd;
+}
+#idleia
+{
+	font-family: 'Comic Sans MS';
+	font-size: 10px;
+	color: #666;	
+	text-decoration: none;
+	float: right;	
+}
+#idleia:hover
+{
+	text-decoration: underline;
+	font-size: 12px;	
+}	
+#dtpost
+{
+	font-family: 'Comic Sans MS';
+	font-size: 12px;
+	color: #555;
+	line-height: 20px;
+	float: right;
+}
+
+.imgUp{border:1px solid #ccc:important; padding: 3px 5px:important;}
